@@ -1,0 +1,192 @@
+
+@import url(reset.min.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+body {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: deeppink;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    margin: 10px;
+    word-break: keep-all;
+}
+
+
+header {
+    background-color: #ffddee;
+    box-shadow: inset 0 5px 10px 0 white;
+    margin: 50px auto;
+}
+
+header h1 {
+    background: url("img/icon/logo.png") center bottom no-repeat;
+    background-size: 32px;
+    margin: 0 10px;
+    padding: 20px 0 40px 0;
+    text-shadow: 5px 5px 5px white;
+}
+
+.groom, .bride {
+    color: black;
+}
+
+header figure {
+    background-color: white;
+    box-shadow: 0 -5px 10px 0 white;
+    margin-top: 20px;
+}
+
+header img {
+    max-width: 100%;
+}
+
+
+section {
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+section h2 {
+    background-color: #ffddee;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px 5px white;
+    display: inline-block;
+    margin: 0 10px 20px 10px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+
+
+#invitation p, #location p {
+    line-height: 1.5rem;
+}
+
+#invitation ul {
+    margin: 20px 0;
+}
+
+#invitation ul li {
+    display: inline-block;
+}
+
+#invitation img, #location img {
+    border: 1px solid #ffddee;
+    border-radius: 100%;
+    box-shadow: 0 0 16px 8px #ffddee;
+    margin-top: 20px;
+    width: 128px;
+}
+
+#invitation h3 {
+    margin: 15px 10px 0 10px;
+}
+
+#invitation .parent {
+    font-weight: bold;
+}
+
+
+#location span {
+    display: block;
+}
+
+#location ul li, #share ul li {
+    display: inline-block;
+    margin: 0 8px 10px 8px;
+}
+
+#location ul li a, #share ul li a {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    padding-top: 67px;
+    white-space: nowrap;
+    width: 64px;
+}
+
+
+.gallery {
+    position: relative;
+}
+
+.gallery figure {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.gallery figure:first-child {
+    position: static;
+}
+
+.gallery img {
+    max-width: 100%;
+}
+
+.gallery figcaption {
+    display: none;
+}
+
+
+#share ul li a {
+    font-size: 0.67rem;
+}
+
+
+#guestbook {
+    padding: 0 20px;
+}
+
+
+.location_map {
+    background-image: url("img/icon/location_map.png");
+}
+
+.location_find {
+    background-image: url("img/icon/location_find.png");
+}
+
+.share_ktalk {
+    background-image: url("img/icon/share_ktalk.png");
+}
+
+.share_kstory {
+    background-image: url("img/icon/share_kstory.png");
+}
+
+.share_fb {
+    background-image: url("img/icon/share_fb.png");
+}
+
+.share_tw {
+    background-image: url("img/icon/share_tw.png");
+}
+
